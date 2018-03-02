@@ -76,7 +76,7 @@ public class ReorderList {
         }
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         ReorderList rl = new ReorderList();
         // test list : 1->2->3->4->5->NULL.
