@@ -50,7 +50,7 @@ public class RemoveDuplicatesFromSortedListTwo {
        return head;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         RemoveDuplicatesFromSortedListTwo rdfslt = new RemoveDuplicatesFromSortedListTwo();
         // test list 1 : 1->2->3->3->4->4->5->NULL.
