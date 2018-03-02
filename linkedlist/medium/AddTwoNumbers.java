@@ -67,7 +67,7 @@ public class AddTwoNumbers {
         return resultList;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         AddTwoNumbers atn = new AddTwoNumbers();
         ListNode testNum1 = new ListNode(-1);
