@@ -90,7 +90,7 @@ public class MissingNumber {
         return -1;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         MissingNumber mn = new MissingNumber();
         int[] testArr1 = {3, 0, 1};
