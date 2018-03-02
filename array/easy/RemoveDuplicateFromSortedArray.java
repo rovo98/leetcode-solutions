@@ -54,7 +54,7 @@ public class RemoveDuplicatesFromSortedArray {
         return newLength;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         RemoveDuplicatesFromSortedArray rdfsa = new RemoveDuplicatesFromSortedArray();
         int[] testArr1 = {1, 1, 2, 2};
