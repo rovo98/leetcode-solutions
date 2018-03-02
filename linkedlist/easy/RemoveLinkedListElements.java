@@ -36,7 +36,7 @@ public class RemoveLinkedListElements {
         return head;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         RemoveLinkedListElements rle = new RemoveLinkedListElements();
         ListNode testList = new ListNode(-1);
