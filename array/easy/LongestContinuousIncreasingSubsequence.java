@@ -41,7 +41,7 @@ public class LongestContinuousIncreasingSubsequence {
         return length;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         LongestContinuousIncreasingSubsequence lcisa = new LongestContinuousIncreasingSubsequence();
         int[] testArr = {1, 3, 5, 4, 7, 11, 12, 54, 14};
