@@ -55,7 +55,7 @@ public class ShortestUnsortedContinuousSubarray {
         return luIndex - fuIndex + 1;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         ShortestUnsortedContinuousSubarray sucsa = new ShortestUnsortedContinuousSubarray();
         int[] testArr = {2, 6, 4, 8, 10, 9, 15};
