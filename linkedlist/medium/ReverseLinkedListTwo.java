@@ -59,7 +59,7 @@ public class ReverseLinkedListTwo {
         return head;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         ReverseLinkedListTwo rlt = new ReverseLinkedListTwo();
         ListNode testList = new ListNode(0);
