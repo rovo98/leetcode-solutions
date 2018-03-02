@@ -36,7 +36,7 @@ public class MaxConsecutiveOnes {
         return count;
     }
 
-    // Derive the program to test the method.
+    // Driver the program to test the method.
     public static void main(String[] args) {
         MaxConsecutiveOnes mco = new MaxConsecutiveOnes();
         int [] test = {1, 1, 0, 1, 1, 1};
