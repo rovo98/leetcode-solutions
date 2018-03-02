@@ -61,7 +61,7 @@ public class ThirdMaximumNumber {
         }
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         ThirdMaximumNumber tmn = new ThirdMaximumNumber();
         int[] testArr1 = {1, 2};
