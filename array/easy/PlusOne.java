@@ -32,7 +32,7 @@ public class PlusOne {
         }
         System.out.println();
     }
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         PlusOne po = new PlusOne();
         int[] testDigits = {9, 9, 9};
