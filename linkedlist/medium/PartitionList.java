@@ -59,7 +59,7 @@ public class PartitionList {
         return lessList;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         PartitionList pl = new PartitionList();
         // test list : 1->4->3->2->5->2->NULL. x = 3
