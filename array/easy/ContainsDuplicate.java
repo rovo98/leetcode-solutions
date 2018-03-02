@@ -51,7 +51,7 @@ public class ContainsDuplicate {
         }
         return false;
     }
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         ContainsDuplicate cd = new ContainsDuplicate();
         int[] testArr = {1, 2, 3, 4, 5, 5, 6};
