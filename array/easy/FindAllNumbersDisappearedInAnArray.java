@@ -52,7 +52,7 @@ public class FindAllNumbersDisappearedInAnArray {
         return ret;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         FindAllNumbersDisappearedInAnArray fandia = new FindAllNumbersDisappearedInAnArray();
         int[] testArr = {4, 3, 2, 1, 7, 8, 2, 3, 1};
