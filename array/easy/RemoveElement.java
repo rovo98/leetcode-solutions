@@ -52,7 +52,7 @@ public class RemoveElement {
         return len;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         RemoveElement re = new RemoveElement();
         int[] test = {3, 2, 2, 3};
