@@ -44,7 +44,7 @@ public class PascalTriangle {
         return list;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         List<List<Integer>> testList = new PascalTriangle().generate(5);
 
