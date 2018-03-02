@@ -105,7 +105,7 @@ public class MaximumProductOfThreeNumbers {
         }
     }
 
-    // Derive the program to test the methods above.
+    // Driver the program to test the methods above.
     public static void main(String[] args) {
         MaximumProductOfThreeNumbers mpotn = new MaximumProductOfThreeNumbers();
         int[] testArr = {3, 2, 4, 1};
