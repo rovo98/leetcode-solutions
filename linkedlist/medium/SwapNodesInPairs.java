@@ -95,7 +95,7 @@ public class SwapNodesInPairs {
             ListNode node = rNode.next;
             rNode.next = node.next;
             preNode.next = node;
-            node.next = rNode;
+            node.next = rNode;    // here is not node.next = preNode.next;
 
             // move forward to next reversing operation.
             preNode = rNode;
@@ -103,7 +103,7 @@ public class SwapNodesInPairs {
         }
         return head;
     }
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         SwapNodesInPairs snip = new SwapNodesInPairs();
         // test list : 1->2->3->4->5->NULL.
