@@ -76,7 +76,7 @@ public class MergeKSortedLists {
         return lists[0];
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         MergeKSortedLists mksl = new MergeKSortedLists();
         ListNode[] testLists1 = new ListNode[4];
