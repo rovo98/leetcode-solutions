@@ -83,7 +83,7 @@ public class IntersectionOfTwoLinkedLists {
         return null;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         IntersectionOfTwoLinkedLists iotl = new IntersectionOfTwoLinkedLists();
         ListNode testList1 = new ListNode(-1);
