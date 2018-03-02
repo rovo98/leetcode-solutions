@@ -78,7 +78,7 @@ public class LinkedListCycleTwo {
         return null;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         LinkedListCycleTwo lct = new LinkedListCycleTwo();
         /**
