@@ -55,7 +55,7 @@ public class KDiffPairsInAnArray {
         return count;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         KDiffPairsInAnArray kdpia = new KDiffPairsInAnArray();
         int[] testArr = {3, 1, 4, 1, 5};
