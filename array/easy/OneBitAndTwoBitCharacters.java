@@ -62,7 +62,7 @@ public class OneBitAndTwoBitCharacters {
         return false;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         OneBitAndTwoBitCharacters obatbc  = new OneBitAndTwoBitCharacters();
         int[] testBits = {1, 0, 0, 1, 0, 0};
