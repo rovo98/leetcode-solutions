@@ -73,7 +73,7 @@ public class ArrayPartition {
         return arr;
     }
 
-    // Drive the program to test the method.
+    // Driver the program to test the method.
     public static void main(String[] args) {
         ArrayPartition ap = new ArrayPartition();
         int[] arr = {1, 4, 3, 2};
