@@ -92,7 +92,7 @@ public class SplitLinkedListInParts {
         return parts;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         SplitLinkedListInParts slip = new SplitLinkedListInParts();
         // test list: 1->2->3->4->NULL.
