@@ -35,7 +35,7 @@ public class DeleteNodeInALinkedList {
         }
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         DeleteNodeInALinkedList dnial = new DeleteNodeInALinkedList();
         ListNode testList = new ListNode(-1);  // Initial the head node of the single-linked-list.
