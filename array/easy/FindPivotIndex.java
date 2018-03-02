@@ -66,7 +66,7 @@ public class FindPivotIndex {
         return -1;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         FindPivotIndex fpi = new FindPivotIndex();
         int[] testArr = {1, 7, 3, 6, 5, 6};
