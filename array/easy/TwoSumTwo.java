@@ -90,7 +90,7 @@ public class TwoSumTwo {
         return null;
     }
 
-    // Derive the program to test the methods above.
+    // Driver the program to test the methods above.
     public static void main(String[] args) {
         TwoSumTwo tst = new TwoSumTwo();
         int[] nums = {2, 7, 11, 15};
