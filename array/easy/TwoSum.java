@@ -51,7 +51,7 @@ public class TwoSum {
         }
         return result;
     }
-    // Drive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
         TwoSum ts = new TwoSum();
