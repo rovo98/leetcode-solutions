@@ -65,7 +65,7 @@ public class PalindromeLinkedList {
         return true;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         PalindromeLinkedList pl = new PalindromeLinkedList();
         // test list : 1->2->3->2->1->NULL.
