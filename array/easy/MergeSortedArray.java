@@ -64,7 +64,7 @@ public class MergeSortedArray {
         return mergedArray;
     }
 
-    // Derive the program to test the methods above.
+    // Driver the program to test the methods above.
     public static void main(String[] args) {
         MergeSortedArray msa = new MergeSortedArray();
         int[] testArr1 = {1, 2, 3, 4, 0, 0, 0, 0, 0, 0};
