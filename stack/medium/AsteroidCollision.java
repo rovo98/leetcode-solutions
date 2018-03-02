@@ -44,7 +44,7 @@ import datastructures.stack.Stack;
  * @author rovo98
  * Date: 22/2/2018
  */
-public class AsteroidColllision {
+public class AsteroidCollision {
     // Solution one: ^
     /*
     Complexity Analysis:
@@ -102,7 +102,7 @@ public class AsteroidColllision {
 
     // Driver the program  to test the method above.
     public static void main(String[] args) {
-        AsteroidColllision ac = new AsteroidColllision();
+        AsteroidCollision ac = new AsteroidCollision();
         int[] testAsteroids = {5, 10, -5};
         int[] testAsteroids_2 = {10, 2, -5};
         System.out.println("The input test asteroids array one is the following:");
