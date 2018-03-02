@@ -99,7 +99,7 @@ public class CopyListWithRandomPointer {
          */
         return null;
     }
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         CopyListWithRandomPointer clwrp = new CopyListWithRandomPointer();
         // test list:
