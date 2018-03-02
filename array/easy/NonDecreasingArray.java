@@ -42,7 +42,7 @@ public class NonDecreasingArray {
         return true;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         NonDecreasingArray nda = new NonDecreasingArray();
         int[] testArr1 = {4, 2, 3};
