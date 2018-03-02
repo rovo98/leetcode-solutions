@@ -53,7 +53,7 @@ public class LargestNumberAtLeastTwiceOfOthers {
         return index;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         LargestNumberAtLeastTwiceOfOthers lnalto = new LargestNumberAtLeastTwiceOfOthers();
         int[] testArr = {3, 6, 1, 0};
