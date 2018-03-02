@@ -89,7 +89,7 @@ public class ReshapeTheMatrix {
         }
     }
 
-    // Derive the program to test the methods above.
+    // Driver the program to test the methods above.
     public static void main(String[] args) {
         ReshapeTheMatrix rstm = new ReshapeTheMatrix();
         int[][] testArr = {{1, 2}, {3, 4}};
