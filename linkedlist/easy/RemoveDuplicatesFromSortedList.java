@@ -58,7 +58,7 @@ public class RemoveDuplicatesFromSortedList {
          }
          return head;
      }
-     // Derive the program to test the method above.
+     // Driver the program to test the method above.
      public static void main(String[] args) {
          RemoveDuplicatesFromSortedList rdfsl = new RemoveDuplicatesFromSortedList();
          // test list1 : 1->2->1->3->3->NULL.
