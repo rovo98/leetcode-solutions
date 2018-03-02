@@ -57,7 +57,7 @@ public class MergeTwoSortedLists {
         return newList;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         MergeTwoSortedLists mtsl = new MergeTwoSortedLists();
         // test list 1 : 1->2->4->NULL.
