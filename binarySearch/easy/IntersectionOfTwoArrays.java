@@ -62,7 +62,7 @@ public class IntersectionOfTwoArrays {
     // Solution two : ^
     /*
     Complexity Analysis:
-        Time complexity: O(log n).
+        Time complexity: O(n).
         Space complexity: O(n).
      */
     public int[] intersectionVersionTwo(int[] nums1, int[] nums2) {
