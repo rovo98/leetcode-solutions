@@ -87,7 +87,7 @@ public class Heaters {
         return -1;      // In this case, this code will never be executed.
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         Heaters h = new Heaters();
         int[] houses = {1, 2, 3, 4, 5};
