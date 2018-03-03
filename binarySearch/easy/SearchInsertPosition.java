@@ -37,7 +37,7 @@ public class SearchInsertPosition {
         return low;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         SearchInsertPosition sip = new SearchInsertPosition();
         int[] testArr = {1, 3, 5, 6};
