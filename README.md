@@ -1,2 +1,2 @@
 # leetcode-java-solutions
-My leetcode adventure!
+My leetcode adventures!
