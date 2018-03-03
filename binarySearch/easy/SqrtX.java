@@ -48,7 +48,7 @@ public class SqrtX {
         return s;
     }
 
-    // Derive the program to test the method above.
+    // Driver the program to test the method above.
     public static void main(String[] args) {
         SqrtX s = new SqrtX();
         System.out.println("The square root of 8 is " + s.mySqrt(8) + ".");
