@@ -30,7 +30,7 @@ public class IntersectionOfTwoArraysTwo {
     // Solution one: ^
     /*
     Complexity Analysis:
-        Time complexity: O(n).
+        Time complexity: O(n log n).
         Space complexity: O(n).
      */
     public int[] intersect(int[] nums1, int[] nums2) {
