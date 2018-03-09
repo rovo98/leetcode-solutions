@@ -43,42 +43,7 @@ public class MissingNumber {
         }
         return -1;
     }
-	// interpolation search.
-    private int interpolationSearch(int[] nums, int key) {
-    	int lo = 0;
-		int hi = nums.length - 1;
-		while (lo <= hi && key < nums[hi] && key > nums[lo]) {
-			int pos = lo + (hi - lo) * (key - nums[lo]) / (nums[hi]-nums[lo]);
-			if (nums[pos] == key)
-				return pos;
-			else if (nums[pos] > key)
-				hi = pos - 1;
-			else
-				lo = pos + 1;
-		}
-		return -1;
-    }
-	// solution two :
-	/*
-	Complexity Analysis:
-		Time complexity: O(n log log n), worst case : O(n^2)
-		Space complexity: O(n).
-	*/
-	public int missingNumberVersionTwo(int[] nums) {
-		int aux[] = new int[nums.length+1];
-		for (int i = 0; i < aux.length; i++) {
-			aux[i] = i;	
-		}
-		for (int num : nums) {
-			int index = interpolationSearch(aux, num);
-			if (index > -1)
-				aux[index] = -aux[index];
-		}
-		for (int num : aux)
-			if (num > 0)
-				return num;
-		return -1;
-	}
+
     // Solution two: &
     /*
     Complexity Analysis:
@@ -147,6 +112,5 @@ public class MissingNumber {
         System.out.println("The result of testArr1 is "+result1+", and the result of " +
                 "testArr2 is "+result2);
 		System.out.println("The result of testArr1 got from function version 3 is " + result3 + ".");
-		System.out.println("The result of testArr1 got from function version 2 is " + result4 + ".");
     }
 }
