@@ -107,8 +107,7 @@ public class MissingNumber {
         System.out.println();
         int result1 = mn.missingNumber(testArr1);
         int result2 = mn.missingNumberVersionOne(testArr2);
-		int result3 = mn.missingNumberVersionThree(testArr1);
-		int result4 = mn.missingNumberVersionTwo(testArr1);
+	int result3 = mn.missingNumberVersionThree(testArr1);
         System.out.println("The result of testArr1 is "+result1+", and the result of " +
                 "testArr2 is "+result2);
 		System.out.println("The result of testArr1 got from function version 3 is " + result3 + ".");
