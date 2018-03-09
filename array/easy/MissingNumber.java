@@ -110,6 +110,6 @@ public class MissingNumber {
 	int result3 = mn.missingNumberVersionThree(testArr1);
         System.out.println("The result of testArr1 is "+result1+", and the result of " +
                 "testArr2 is "+result2);
-		System.out.println("The result of testArr1 got from function version 3 is " + result3 + ".");
+	System.out.println("The result of testArr1 got from function version 3 is " + result3 + ".");
     }
 }
