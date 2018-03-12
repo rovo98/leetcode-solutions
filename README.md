@@ -50,29 +50,32 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:------:|:------:|
-|   |[ArrayPartition]()|    |
-|   |[ContainsDuplicate]()| |
-|   |[FindAllNumberDisappearedInAnArray]()| |
-|   |[FindPivotIndex]()|    |
-|   |[KDiffPairsInAnArray]()|   |
-|   |[LargestContinuousIncreasingSubsequence]()|    |
-|   |[MaximumProductOfThreeNumbers]()|  |
-|   |[MergeSortedArray]()|  |
-|   |[MissingNumber]()| |
-|   |[MoveZeroes]()|    |
-|   |[NonDecreasingArray]()| |
-|   |[OneBitAndTwoBitCharacters]()|  |
-|   |[PascalTriangle]()|    |
-|   |[PlusOne]()|   |
-|   |[RemoveDuplicateFromSortedArray]()|    |
-|   |[RemoveElement]()| |
-|   |[ReshapeTheMatrix]()|  |
-|   |[RotateArray]()|   |
-|   |[SearchingInsertPosition]()|   |
-|   |[ShortestUnsortedContinuousSubarray]()|    |
-|   |[ThirdMaximumNumber]()|    |
-|   |[TwoSum]()|    |
-|   |[TowSumTwo]()| |
+|   |[ArrayPartition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ArrayPartition.java)|    |
+|   |[ContainsDuplicate](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ContainsDuplicate.java)| |
+|   |[FindAllNumberDisappearedInAnArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindAllNumbersDisappearedInAnArray.java)| |
+|   |[FindPivotIndex](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindPivotIndex.java)|    |
+|   |[KDiffPairsInAnArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/KDiffPairsInAnArray.java)|   |
+|   |[LargestNumberAtLeastTwiceOfOthers](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/LargestNumberAtLeastTwiceOfOthers.java)| |
+|   |[LongestContinuousIncreasingSubsequence](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/LongestContinuousIncreasingSubsequence.java)|    |
+|   |[MaxConsecutiveOnes](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/MaxConsecutiveOnes.java)|    |
+|   |[MaximumAverageSubarray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/MaximumAverageSubarray.java)| |
+|   |[MaximumProductOfThreeNumbers](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/MaximumProductOfThreeNumbers.java)|  |
+|   |[MergeSortedArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/MergeSortedArray.java)|  |
+|   |[MissingNumber](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/MissingNumber.java)| |
+|   |[MoveZeroes](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/MoveZeroes.java)|    |
+|   |[NonDecreasingArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/NonDecreasingArray.java)| |
+|   |[OneBitAndTwoBitCharacters](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/OneBitAndTwoBitCharacters.java)|  |
+|   |[PascalTriangle](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/PascalTriangle.java)|    |
+|   |[PlusOne](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/PlusOne.java)|   |
+|   |[RemoveDuplicateFromSortedArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/RemoveDuplicateFromSortedArray.java)|    |
+|   |[RemoveElement](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/RemoveElement.java)| |
+|   |[ReshapeTheMatrix](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ReshapeTheMatrix.java)|  |
+|   |[RotateArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/RotateArray.java)|   |
+|   |[SearchingInsertPosition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/SearchInsertPosition.java)|   |
+|   |[ShortestUnsortedContinuousSubarray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ShortestUnsortedContinuousSubarray.java)|    |
+|   |[ThirdMaximumNumber](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ThirdMaximumNumber.java)|    |
+|   |[TwoSum](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSum.java)|    |
+|   |[TowSumTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSumTwo.java)| |
 
 ### medium
 
