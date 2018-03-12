@@ -271,7 +271,7 @@ My leetcode adventures!
 
 ### Queue
 
-#### API : [details]()
+#### API : [details](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/queue/Queue.java)
 
 |Operation|Description|
 |:--------:|:--------:|
@@ -286,4 +286,4 @@ My leetcode adventures!
 
 |Name|Description|
 |:---:|:---------:|
-|[LinkedQueue]()|An implement of Queue using single-linked-list.|
+|[LinkedQueue](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/queue/LinkedQueue.java)|An implement of Queue using single-linked-list.|
