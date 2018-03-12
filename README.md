@@ -18,29 +18,29 @@ My leetcode adventures!
     - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-1)
 - [Dynamic Programming](https://github.com/rovo98/leetcode-java-solutions#dynamic-programming----go-back-to-top)
     - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-2)
-    - [medium]()
-    - [hard]()
-- [LinkedList](https://github.com/rovo98/leetcode-java-solutions#linkedlist----go-back-to-top)
-    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-3)
     - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-2)
     - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-2)
+- [LinkedList](https://github.com/rovo98/leetcode-java-solutions#linkedlist----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-3)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-3)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-3)
 - [Sort](https://github.com/rovo98/leetcode-java-solutions#sort----go-back-to-top)
     - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-4)
-    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-3)
-    - [hard]()
-- [Stack]()
-    - [easy]()
-    - [medium]()
-    - [hard]()
-- [Tree]()
-    - [easy]()
-    - [medium]()
-    - [hard]()
-- [Union Find]()
-    - [medium]()
-    - [hard]()
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-4)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-4)
+- [Stack](https://github.com/rovo98/leetcode-java-solutions#sort----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-5)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-5)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-5)
+- [Tree](https://github.com/rovo98/leetcode-java-solutions#tree----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-6)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-6)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-6)
+- [Union Find](https://github.com/rovo98/leetcode-java-solutions#union-find----go-back-to-top)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-7)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-7)
 
-- [Datastructures using in solutions]()
+- [Datastructures using in solutions](https://github.com/rovo98/leetcode-java-solutions#my-datastructures----go-back-to-top)
 
 ------------------------------------------------------
 
@@ -208,7 +208,7 @@ My leetcode adventures!
 
 ### easy
 
-### medim
+### medium
 
 ### hard
 
@@ -223,6 +223,8 @@ My leetcode adventures!
 |Question|Solution|Notes|
 |:------:|:-------:|:-------:|
 |   |[RedundantConnection]()|    |
+
+### hard
 
 ## My Datastructures -- [go back to top]()
 
