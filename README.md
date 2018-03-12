@@ -153,8 +153,8 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:--------:|:----------:|:-------:|
-|   |[MergeKSortedLists]()| |
-|   |[ReverseNodesInKGroup]()|  |
+|   |[MergeKSortedLists](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/hard/MergeKSortedLists.java)| |
+|   |[ReverseNodesInKGroup](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/hard/ReverseNodesInKGroup.java)|  |
 
 ## Sort -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
