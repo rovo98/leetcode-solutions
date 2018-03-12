@@ -44,7 +44,7 @@ My leetcode adventures!
 
 ------------------------------------------------------
 
-## Array -- [go back to top]()
+## Array -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
 
@@ -81,7 +81,7 @@ My leetcode adventures!
 
 ### hard
 
-## BinarySearch -- [go back to top]()
+## BinarySearch -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
 
@@ -103,7 +103,7 @@ My leetcode adventures!
 
 ### hard
 
-## Dynamic Programming -- [go back to top]()
+## Dynamic Programming -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
 
@@ -115,7 +115,7 @@ My leetcode adventures!
 
 ### hard
 
-## LinkedList -- [go back to top]()
+## LinkedList -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
 
@@ -156,7 +156,7 @@ My leetcode adventures!
 |   |[MergeKSortedLists]()| |
 |   |[ReverseNodesInKGroup]()|  |
 
-## Sort -- [go back to top]()
+## Sort -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
 
@@ -174,7 +174,7 @@ My leetcode adventures!
 
 ### hard
 
-## Stack -- [go back to top]()
+## Stack -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
 
@@ -207,7 +207,7 @@ My leetcode adventures!
 |   |[BasicCalculatorThree]()|  |
 |   |[BinaryTreePostOrderTraversal]()|  |
 
-## Tree -- [go back to top]()
+## Tree -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
 
@@ -219,7 +219,7 @@ My leetcode adventures!
 |:-------:|:-------:|:-----:|
 |   |[BinaryTreePostOrderTraversal]()|  |
 
-## Union Find -- [go back to top]()
+## Union Find -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### medium
 
@@ -229,7 +229,7 @@ My leetcode adventures!
 
 ### hard
 
-## My Datastructures -- [go back to top]()
+## My Datastructures -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### Bag
 
