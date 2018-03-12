@@ -109,7 +109,7 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:------:|:------:|
-|   |[BestTimeToBuyAndShellStock]()|    |
+|   |[BestTimeToBuyAndShellStock](https://github.com/rovo98/leetcode-java-solutions/blob/master/dynamicProgramming/easy/BestTimeToBuyAndShellStock.java)|    |
 
 ### medium
 
