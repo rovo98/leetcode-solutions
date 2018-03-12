@@ -121,13 +121,13 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:-------:|:--------:|
-|   |[DeleteNodeInALinkedList]()|   |
-|   |[IntersectionOfTwoLinkedList]()|   |
-|   |[MergeTwoSortedLists]()|   |
-|   |[PalindromeLinkedList]()|   |
-|   |[RemoveDuplicatesFromSortedList]()|    |
-|   |[RemoveLinkedListElements]()|  |
-|   |[ReverseLinkedList]()| |
+|   |[DeleteNodeInALinkedList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/easy/DeleteNodeInALinkedList.java)|   |
+|   |[IntersectionOfTwoLinkedList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/easy/IntersectionOfTwoLinkedLists.java)|   |
+|   |[MergeTwoSortedLists](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/easy/MergeTwoSortedLists.java)|   |
+|   |[PalindromeLinkedList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/easy/PalindromeLinkedList.java)|   |
+|   |[RemoveDuplicatesFromSortedList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/easy/RemoveDuplicatesFromSortedList.java)|    |
+|   |[RemoveLinkedListElements](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/easy/RemoveLinkedListElements.java)|  |
+|   |[ReverseLinkedList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/easy/ReverseLinkedList.java)| |
 
 ### medium
 
