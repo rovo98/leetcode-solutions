@@ -251,7 +251,7 @@ My leetcode adventures!
 
 ### Stack
 
-#### API : [details]()
+#### API : [details](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/stack/Stack.java)
 
 |Operation|Description|
 |:-------:|:----------:|
@@ -266,8 +266,8 @@ My leetcode adventures!
 
 |Name|Description|
 |:---:|:----------:|
-|[ArrayStack]()|An implement of Stack using ResizingArray.|
-|[LinkedStack]()|An implement of Stack using single-linked-list.|
+|[ArrayStack](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/stack/ArrayStack.java)|An implement of Stack using ResizingArray.|
+|[LinkedStack](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/stack/LinkedStack.java)|An implement of Stack using single-linked-list.|
 
 ### Queue
 
