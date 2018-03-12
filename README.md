@@ -162,8 +162,8 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:------:|:-------:|:-------:|
-|   |[IntersectionOfTwoArrays]()|    |
-|   |[ValidAnagram]()|  |
+|   |[IntersectionOfTwoArrays](https://github.com/rovo98/leetcode-java-solutions/blob/master/sort/easy/IntersectionOfTwoArrays.java)|    |
+|   |[ValidAnagram](https://github.com/rovo98/leetcode-java-solutions/blob/master/sort/easy/ValidAnagram.java)|  |
 
 ### medium
 
