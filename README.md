@@ -8,21 +8,25 @@ My leetcode adventures!
 
 ## Table of Contents
 
-- [Array]()
-    - [easy]()
+- [Array](https://github.com/rovo98/leetcode-java-solutions#array----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard)
+- [BinarySearch](https://github.com/rovo98/leetcode-java-solutions#binarysearch----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-1)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-1)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-1)
+- [Dynamic Programming](https://github.com/rovo98/leetcode-java-solutions#dynamic-programming----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-2)
     - [medium]()
     - [hard]()
-- [BinarySearch]()
-    - [easy]()
-    - [medium]()
-    - [hard]()
-- [LinkedList]()
-    - [easy]()
-    - [medium]()
-    - [hard]()
-- [Sort]()
-    - [easy]()
-    - [medium]()
+- [LinkedList](https://github.com/rovo98/leetcode-java-solutions#linkedlist----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-3)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-2)
+    - [hard](https://github.com/rovo98/leetcode-java-solutions#hard-2)
+- [Sort](https://github.com/rovo98/leetcode-java-solutions#sort----go-back-to-top)
+    - [easy](https://github.com/rovo98/leetcode-java-solutions#easy-4)
+    - [medium](https://github.com/rovo98/leetcode-java-solutions#medium-3)
     - [hard]()
 - [Stack]()
     - [easy]()
@@ -104,6 +108,10 @@ My leetcode adventures!
 |:-------:|:------:|:------:|
 |   |[BestTimeToBuyAndShellStock]()|    |
 
+### medium
+
+### hard
+
 ## LinkedList -- [go back to top]()
 
 ### easy
@@ -136,7 +144,7 @@ My leetcode adventures!
 |   |[RoateLIst]()| |
 |   |[SortList]()|  |
 |   |[SplitLinkedListInParts]()|    |
-|   [SwapNodesInPairs]()|   |
+|   |[SwapNodesInPairs]()|   |
 
 ### hard
 
@@ -160,6 +168,8 @@ My leetcode adventures!
 |:-------:|:------:|:-----:|
 |   |[LongestWordInDictionaryThroughDeleting]()| |
 |   |[SortList]()|  |
+
+### hard
 
 ## Stack -- [go back to top]()
 
