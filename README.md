@@ -225,7 +225,7 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:------:|:-------:|:-------:|
-|   |[RedundantConnection]()|    |
+|   |[RedundantConnection](https://github.com/rovo98/leetcode-java-solutions/blob/master/union-find/medium/RedundantConnection.java)|    |
 
 ### hard
 
