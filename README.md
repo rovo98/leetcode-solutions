@@ -191,13 +191,13 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-----:|:------:|:-------:|
-|   |[AsteroidCollision]()|  |
-|   |[BinaryTreeInorderTraversal]()|    |
-|   |[BinaryTreePrOrderTraversal]()|    |
-|   |[DaliyTemperatures]()| |
-|   |[Decodestring]()|  |
-|   |[EvaluteReversePolishNotation]()|  |
-|   |[NextGreaterElementTwo]()| |
+|   |[AsteroidCollision](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/medium/AsteroidCollision.java)|  |
+|   |[BinaryTreeInorderTraversal](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/medium/BinaryTreeInorderTraversal.java)|    |
+|   |[BinaryTreePrOrderTraversal](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/medium/BinaryTreePreOrderTraversal.java)|    |
+|   |[DaliyTemperatures](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/medium/DaliyTemperatures.java)| |
+|   |[Decodestring](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/medium/DecodeString.java)|  |
+|   |[EvaluteReversePolishNotation](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/medium/EvaluateReversePolishNotation.java)|  |
+|   |[NextGreaterElementTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/medium/NextGreaterElementTwo.java)| |
 
 ### hard
 
