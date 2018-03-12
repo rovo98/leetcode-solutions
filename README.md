@@ -180,12 +180,12 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:------:|:------:|:-------:
-|   |[BaseballGame]()|  |
-|   |[ImplementQueueUsingStacks]()| |
-|   |[ImplementStackUsingQueue]()|  |
-|   |[MinStack]()|  |
-|   |[NextGreaterElementOne]()| |
-|   |[ValidParentheses]()|  |
+|   |[BaseballGame](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/easy/BaseballGame.java)|  |
+|   |[ImplementQueueUsingStacks](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/easy/ImplementQueueUsingStacks.java)| |
+|   |[ImplementStackUsingQueue](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/easy/ImplementStackUsingQueues.java)|  |
+|   |[MinStack](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/easy/MinStack.java)|  |
+|   |[NextGreaterElementOne](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/easy/NextGreaterElementOne.java)| |
+|   |[ValidParentheses](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/easy/ValidParentheses.java)|  |
 
 ### medium
 
