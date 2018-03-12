@@ -203,9 +203,9 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:-----:|:----:|
-|   |[BasicCalculator]()|   |
-|   |[BasicCalculatorThree]()|  |
-|   |[BinaryTreePostOrderTraversal]()|  |
+|   |[BasicCalculator](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/hard/BasicCalculator.java)|   |
+|   |[BasicCalculatorThree](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/hard/BasicCalculatorThree.java)|  |
+|   |[BinaryTreePostOrderTraversal](https://github.com/rovo98/leetcode-java-solutions/blob/master/stack/hard/BinaryTreePostorderTraversal.java)|  |
 
 ## Tree -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
