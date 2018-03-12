@@ -87,18 +87,18 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:-------:|:----:|
-|   |[ArrangingCoins]()|    |
-|   |[Heaters]()|   |
-|   |[IntersectionOfTwoArrays]()|   |
-|   |[IntersectionOfTwoArraysTwo]()|    |
-|   |[SearchInsertPosition]()|  |
-|   |[SqrtX]()| |
+|   |[ArrangingCoins](https://github.com/rovo98/leetcode-java-solutions/blob/master/binarySearch/easy/Arrangingcoins.java)|    |
+|   |[Heaters](https://github.com/rovo98/leetcode-java-solutions/blob/master/binarySearch/easy/Heaters.java)|   |
+|   |[IntersectionOfTwoArrays](https://github.com/rovo98/leetcode-java-solutions/blob/master/binarySearch/easy/IntersectionOfTwoArrays.java)|   |
+|   |[IntersectionOfTwoArraysTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/binarySearch/easy/IntersectionOfTwoArraysTwo.java)|    |
+|   |[SearchInsertPosition](https://github.com/rovo98/leetcode-java-solutions/blob/master/binarySearch/easy/SearchInsertPosition.java)|  |
+|   |[SqrtX](https://github.com/rovo98/leetcode-java-solutions/blob/master/binarySearch/easy/SqrtX.java)| |
 
 ### medium
 
 |Question|Solution|Notes|
 |:-------:|:------:|:------:|
-|   |[FindKCloestElements]()|   |
+|   |[FindKCloestElements](https://github.com/rovo98/leetcode-java-solutions/blob/master/binarySearch/medium/FindKClosestElements.java)|   |
 
 
 ### hard
