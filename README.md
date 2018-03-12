@@ -169,8 +169,8 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:------:|:-----:|
-|   |[LongestWordInDictionaryThroughDeleting]()| |
-|   |[SortList]()|  |
+|   |[LongestWordInDictionaryThroughDeleting](https://github.com/rovo98/leetcode-java-solutions/blob/master/sort/medium/LongestWordInDictionaryThroughDeleting.java)| |
+|   |[SortList](https://github.com/rovo98/leetcode-java-solutions/blob/master/sort/medium/SortList.java)|  |
 
 ### hard
 
