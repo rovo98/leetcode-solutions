@@ -233,7 +233,7 @@ My leetcode adventures!
 
 ### Bag
 
-#### API : [details]()
+#### API : [details](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/bag/Bag.java)
 
 |Operation     |Description|
 |:-------------:|:---------:|
@@ -246,8 +246,8 @@ My leetcode adventures!
 
 |Name|Description|
 |:---:|:---------:|
-|[ArrayBag]()|An implement of Bag using ResizingArray.|
-|[LinkedBag]()|An implement of Bag using linked-list.|
+|[ArrayBag](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/bag/ArrayBag.java)|An implement of Bag using ResizingArray.|
+|[LinkedBag](https://github.com/rovo98/leetcode-java-solutions/blob/master/my-datastrutures/bag/LinkedBag.java)|An implement of Bag using linked-list.|
 
 ### Stack
 
