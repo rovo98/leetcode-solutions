@@ -133,21 +133,21 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:------:|:-------:|:-------:|
-|   |[AddTwoNumber]()|  |
-|   |[AddTwoNumberTwo]()|   |
-|   |[CopyListWithRandomPointer]()| |
-|   |[InsertionSortList]()| |
-|   |[LinkedListCycleTwo]()|    |
-|   |[OddEvenLinkedList]()| |
-|   |[PartitionList]()| |
-|   |[RemoveDuplicatesFromSortedListTwo]()| |
-|   |[RemoveNthNodeFromEndOfList]()|    |
-|   |[ReorderList]()|   |
-|   |[ReverseLinkedListTwo]()|  |
-|   |[RoateLIst]()| |
-|   |[SortList]()|  |
-|   |[SplitLinkedListInParts]()|    |
-|   |[SwapNodesInPairs]()|   |
+|   |[AddTwoNumber](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/AddTwoNumbers.java)|  |
+|   |[AddTwoNumberTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/AddTwoNumbersTwo.java)|   |
+|   |[CopyListWithRandomPointer](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/CopyListWithRandomPointer.java)| |
+|   |[InsertionSortList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/InsertionSortList.java)| |
+|   |[LinkedListCycleTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/LinkedListCycleTwo.java)|    |
+|   |[OddEvenLinkedList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/OddEvenLinkedList.java)| |
+|   |[PartitionList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/PartitionList.java)| |
+|   |[RemoveDuplicatesFromSortedListTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/RemoveDuplicatesFromSortedListTwo.java)| |
+|   |[RemoveNthNodeFromEndOfList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/RemoveNthNodeFromEndOfList.java)|    |
+|   |[ReorderList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/ReorderList.java)|   |
+|   |[ReverseLinkedListTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/ReverseLinkedListTwo.java)|  |
+|   |[RoateLIst](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/RotateList.java)| |
+|   |[SortList](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/SortList.java)|  |
+|   |[SplitLinkedListInParts](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/SplitLinkedListInParts.java)|    |
+|   |[SwapNodesInPairs](https://github.com/rovo98/leetcode-java-solutions/blob/master/linkedlist/medium/SwapNodesInPairs.java)|   |
 
 ### hard
 
