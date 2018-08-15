@@ -60,11 +60,31 @@ public class AddTwoNumbers {
         while (rNode.next != null) {
             rNode = rNode.next;
             if (rNode.val > 9) {
-                rNode.val = 0;
+                rNode.val %= 10;
                 rNode.next.val++;
             }
         }
         return resultList;
+    }
+    // solution from leetcode.
+    private ListNode addTwoNumber2(ListNode l1, ListNode l2) {
+        ListNode result = new ListNode(0);
+        ListNode p = l1, q = l2, curr = result;
+        int carry = 0;
+        while (p != null || q != null) {
+            int x = (p == null) ? 0 : p.val;
+            int y = (q == null) ? 0 : q.val;
+            int sum = carry + x + y;
+            carry = sum / 10;
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
+            if (p != null) p = p.next;
+            if (q != null) q = q.next;
+        }
+        if (carry > 0) {
+            curr.next = new ListNode(carry);
+        }
+        return result.next;
     }
 
     // Driver the program to test the method above.
