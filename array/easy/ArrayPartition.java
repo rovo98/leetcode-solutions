@@ -1,7 +1,6 @@
 package Array.Easy;
 
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Problem : Acceptance: 66.5%
@@ -23,10 +22,12 @@ import java.util.Random;
  * Date: 01/2/2018
  */
 public class ArrayPartition {
+    // this class can not be instanced
+    private ArrayPartition() {}
     // Solution one: ^
     // This algorithm's time complexity is O(log n), it depended on what kind of sorting
     // algorithms we use.
-    public int arrayParisSum(int[] nums) {
+    private static int arrayParisSum(int[] nums) {
         //sort the input array first, then add up all the elements which have the even index.
         int sum = 0;
 
@@ -57,35 +58,56 @@ public class ArrayPartition {
         return sum;
     }
 
-    // The definition of the testing methods
-    public int[] generateRandomArr() {
-        // According to the notes above to generate the input array randomly.
-        int n = new Random().nextInt(10000) + 1;
-        System.out.println("we generate "+n+"elements!");
-        int[] arr = new int[n];
 
-        //Initial the all the integers in the array
-        for (int i=0; i<arr.length; i++) {
-            arr[i] = (int)(Math.random()*9999) + 1;
+    // using the idea of the bucketSort
+    /*
+    Complexity Analysis:
+        Time complexity: O(n)
+        Space complexity: O(n)
+     */
+    private static int arrayParisSumVer2(int[] nums) {
+
+        if (nums.length % 2 != 0)
+            throw new IllegalArgumentException();
+
+        int[] bucket = new int[20001];
+        int maxElemt = Integer.MIN_VALUE;
+        int minElemt = Integer.MAX_VALUE;
+
+        for (int num : nums) {
+            bucket[num + 10000]++;
+            if (num > maxElemt)
+                maxElemt = num;
+            if (num < minElemt)
+                minElemt = num;
         }
 
-        // return the arr
-        return arr;
+        int result = 0;
+        minElemt += 10000;  // offset is 10000
+        maxElemt += 10000;
+        boolean isOdd = true;
+        for (int i = minElemt; i <= maxElemt; i++) {
+            if (bucket[i] > 0) {
+                for (int j = 0; j < bucket[i]; j++) {
+                    if (isOdd)
+                        result += (i - 10000);
+                    isOdd = !isOdd;
+                }
+            }
+        }
+        return result;
     }
 
     // Driver the program to test the method.
     public static void main(String[] args) {
-        ArrayPartition ap = new ArrayPartition();
         int[] arr = {1, 4, 3, 2};
         System.out.println("The input array:");
-        for (int i=0; i<arr.length; i++) {
-            System.out.print(arr[i]+"\t");
-            if ((i+1) % 10 == 0) {
-                System.out.println();
-            }
+        for (int anArr : arr) {
+            System.out.print(anArr + "\t");
         }
         System.out.println();
-        int sum = ap.arrayParisSum(arr);
+        int sum = arrayParisSum(arr);
         System.out.println("The result is: "+sum);
+        System.out.println("The result(ver2) is " + arrayParisSumVer2(arr) + ".");
     }
 }
