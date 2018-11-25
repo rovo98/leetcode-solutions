@@ -50,7 +50,7 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:------:|:------:|
-|   |[ArrayPartition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ArrayPartition.java)|    |
+|[https://leetcode.com/problems/array-partition-i](561)|[ArrayPartition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ArrayPartition.java)|[https://rovo98.github.io/posts/270f73f9/](array-partition-i)|
 |   |[ContainsDuplicate](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ContainsDuplicate.java)| |
 |   |[FindAllNumberDisappearedInAnArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindAllNumbersDisappearedInAnArray.java)| |
 |   |[FindPivotIndex](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindPivotIndex.java)|    |
