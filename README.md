@@ -50,7 +50,7 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:------:|:------:|
-|[561](https://leetcode.com/problems/array-partition-i)|[ArrayPartition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ArrayPartition.java)|[array-partition-i](https://rovo98.github.io/posts/270f73f9/)|
+|[#561.](https://leetcode.com/problems/array-partition-i)|[ArrayPartition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ArrayPartition.java)|[array-partition-i](https://rovo98.github.io/posts/270f73f9/)|
 |   |[ContainsDuplicate](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ContainsDuplicate.java)| |
 |   |[FindAllNumberDisappearedInAnArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindAllNumbersDisappearedInAnArray.java)| |
 |   |[FindPivotIndex](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindPivotIndex.java)|    |
@@ -74,10 +74,14 @@ My leetcode adventures!
 |   |[SearchingInsertPosition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/SearchInsertPosition.java)|   |
 |   |[ShortestUnsortedContinuousSubarray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ShortestUnsortedContinuousSubarray.java)|    |
 |   |[ThirdMaximumNumber](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ThirdMaximumNumber.java)|    |
-|   |[TwoSum](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSum.java)|    |
+|[#1.](https://leetcode.com/problems/two-sum)|[TwoSum](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSum.java)|[two-sum](https://rovo98.github.io/posts/917327d3/)|
 |   |[TowSumTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSumTwo.java)| |
 
 ### medium
+
+|Question|Solution|Notes|
+|:-----:|:-------:|:------:|
+|[#11.](https://leetcode.com/problems/container-with-most-water/)|[ContainerWithMostWater](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/medium/ContainerWithMostWater.java)|[container-with-most-water](https://rovo98.github.io/posts/dac7fdaa/)|
 
 ### hard
 
