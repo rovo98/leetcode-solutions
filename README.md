@@ -119,6 +119,18 @@ My leetcode adventures!
 
 ### hard
 
+## Greedy -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
+
+### easy
+
+|Question|Solution|Notes|
+|:-------:|:------:|:------:|
+|[#944.](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[DeleteColumnsToMakeSorted](https://github.com/rovo98/leetcode-java-solutions/blob/master/greedy/easy/DeleteColumnsToMakeSorted.java)|[delete-columns-to-make-sorted](https://rovo98.github.io/posts/f5b699c8/)|
+### medium
+
+### hard
+
+
 ## LinkedList -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
 ### easy
