@@ -50,7 +50,7 @@ My leetcode adventures!
 
 |Question|Solution|Notes|
 |:-------:|:------:|:------:|
-|   |[ArrayPartition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ArrayPartition.java)|    |
+|[#561.](https://leetcode.com/problems/array-partition-i)|[ArrayPartition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ArrayPartition.java)|[array-partition-i](https://rovo98.github.io/posts/270f73f9/)|
 |   |[ContainsDuplicate](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ContainsDuplicate.java)| |
 |   |[FindAllNumberDisappearedInAnArray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindAllNumbersDisappearedInAnArray.java)| |
 |   |[FindPivotIndex](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/FindPivotIndex.java)|    |
@@ -74,10 +74,14 @@ My leetcode adventures!
 |   |[SearchingInsertPosition](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/SearchInsertPosition.java)|   |
 |   |[ShortestUnsortedContinuousSubarray](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ShortestUnsortedContinuousSubarray.java)|    |
 |   |[ThirdMaximumNumber](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/ThirdMaximumNumber.java)|    |
-|   |[TwoSum](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSum.java)|    |
+|[#1.](https://leetcode.com/problems/two-sum)|[TwoSum](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSum.java)|[two-sum](https://rovo98.github.io/posts/917327d3/)|
 |   |[TowSumTwo](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/easy/TwoSumTwo.java)| |
 
 ### medium
+
+|Question|Solution|Notes|
+|:-----:|:-------:|:------:|
+|[#11.](https://leetcode.com/problems/container-with-most-water/)|[ContainerWithMostWater](https://github.com/rovo98/leetcode-java-solutions/blob/master/array/medium/ContainerWithMostWater.java)|[container-with-most-water](https://rovo98.github.io/posts/dac7fdaa/)|
 
 ### hard
 
@@ -114,6 +118,18 @@ My leetcode adventures!
 ### medium
 
 ### hard
+
+## Greedy -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
+
+### easy
+
+|Question|Solution|Notes|
+|:-------:|:------:|:------:|
+|[#944.](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[DeleteColumnsToMakeSorted](https://github.com/rovo98/leetcode-java-solutions/blob/master/greedy/easy/DeleteColumnsToMakeSorted.java)|[delete-columns-to-make-sorted](https://rovo98.github.io/posts/f5b699c8/)|
+### medium
+
+### hard
+
 
 ## LinkedList -- [go back to top](https://github.com/rovo98/leetcode-java-solutions#table-of-contents)
 
