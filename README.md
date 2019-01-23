@@ -6,6 +6,10 @@ description: leetcode solutions.
 # leetcode-java-solutions
 My leetcode adventures!
 
+The first adventure (Solving the problems by type)
+
+Navigate to the [second adventure](https://github.com/rovo98/leetcode-java-solutions/tree/adventure2)
+
 ## Table of Contents
 
 - [Array](https://github.com/rovo98/leetcode-java-solutions#array----go-back-to-top)
