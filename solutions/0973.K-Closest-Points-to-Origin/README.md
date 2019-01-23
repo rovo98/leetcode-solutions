@@ -37,6 +37,7 @@ Output: [[3,3],[-2,4]]
 ### Links
 
 [(en)https://leetcode.com/problems/k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin)
+<br />
 [(中文)https://leetcode-cn.com/problems/k-closest-points-to-origin](https://leetcode-cn.com/problems/k-closest-points-to-origin)
 
 ## 解题思路
