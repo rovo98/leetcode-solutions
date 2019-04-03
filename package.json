@@ -1,0 +1,18 @@
+{
+    "devDependencies": {
+        "vuepress": "^0.14.10"
+    },
+    "name": "leetcode-java-solutions",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "rovo98 <2402323937@qq.com>",
+    "license": "MIT",
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs",
+        "d": "bash deploy.sh"
+    },
+    "resolutions" : {
+        "webpack-dev-middleware": "3.6.0"
+    }
+}
