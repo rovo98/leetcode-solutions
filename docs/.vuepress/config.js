@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Leetcode adventure",
+  title: "rovo98's leetcode adventure",
   description: "Leetcode 解题报告",
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
