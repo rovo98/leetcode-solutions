@@ -19,20 +19,23 @@ module.exports = {
       },
       { text: "Github地址", link: "https://github.com/rovo98" }
     ],
-    sidebar: [
-      // docs 文件夹下的文件夹
-      {
-        title: "Simple",
-        children: [
-
-        ]
-      },
-      {
-        title: "Medium",
-        children: [
-          "/Medium/0937.K-Closest-Points-To-Origin"
-        ]
-      }
-    ]
+    sidebar: "auto",
+    displayAllHeaders: true, // 默认值 false
+    lastUpdated: "Last Updated"
+    // sidebar: [
+    //   // docs 文件夹下的文件夹
+    //   {
+    //     title: "Simple",
+    //     children: [
+    //
+    //     ]
+    //   },
+    //   {
+    //     title: "Medium",
+    //     children: [
+    //       "/Medium/0937.K-Closest-Points-To-Origin"
+    //     ]
+    //   }
+    // ]
   }
 }
