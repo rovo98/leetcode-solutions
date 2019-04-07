@@ -3,11 +3,19 @@ module.exports = {
   description: "Leetcode 解题报告",
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
-    ["link", { "rel": "icon", "href": "/favicon.png" }]
+    ["link", { "rel": "icon", "href": "/favicon.png" }],
+    ["link", { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" }],
+    ["link", { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }]
   ],
   base: "/leetcode-java-solutions/",
   markdown: {
-    lineNumbers: true // 代码块行号显示
+    lineNumbers: true, // 代码块行号显示
+    config: md => {
+      md.use(require("markdown-it-katex")),
+      md.use(require("markdown-it-mark")),
+      md.use(require("markdown-it-sup")),
+      md.use(require("markdown-it-sub"))
+    }
   },
   themeConfig: {
     nav: [

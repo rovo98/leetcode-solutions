@@ -12,7 +12,14 @@
         "docs:build": "vuepress build docs",
         "d": "bash deploy.sh"
     },
-    "resolutions" : {
+    "resolutions": {
         "webpack-dev-middleware": "3.6.0"
+    },
+    "dependencies": {
+        "markdown-it-emoji": "^1.4.0",
+        "markdown-it-katex": "^2.0.3",
+        "markdown-it-mark": "^2.0.0",
+        "markdown-it-sub": "^1.0.0",
+        "markdown-it-sup": "^1.0.0"
     }
 }

@@ -9,6 +9,7 @@ author: rovo98
 
 ## Simple
 
+[0001.Two Sum](/Simple/0001.Two-Sum.html)<br>
 [0007.Reverse Integer](/Simple/0007.Reverse-Integer.html)
 
 ## Medium
