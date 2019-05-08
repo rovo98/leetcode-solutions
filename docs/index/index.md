@@ -9,12 +9,12 @@ author: rovo98
 
 ## Simple
 
-[0001.Two Sum](/Simple/0001.Two-Sum.html)<br>
-[0007.Reverse Integer](/Simple/0007.Reverse-Integer.html)
+[0001.Two Sum](/Simple/0001.Two-Sum.html)<br/>
+[0007.Reverse Integer](/Simple/0007.Reverse-Integer.html)<br/>
 
 ## Medium
 
-[0937.K closest points to origin](/Medium/0937.K-Closest-Points-To-Origin.html)
+[0937.K closest points to origin](/Medium/0937.K-Closest-Points-To-Origin.html)<br/>
 
 ## Hard
 
