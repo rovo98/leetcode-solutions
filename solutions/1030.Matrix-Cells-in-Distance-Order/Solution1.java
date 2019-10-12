@@ -13,8 +13,9 @@ class Solution {
         // suppose the (0, 0) is the first in the sorted part.
         int inserted = 1;
         for (int i = 0; i < R; i++) {
-            for (int j = 0; j < C; j++) {
-                if (i == 0 && j == 0) continue;
+            int j = i == 0 ? 1 : 0;
+            for (; j < C; j++) {
+                /* if (i == 0 && j == 0) continue; */
                 int p = inserted;
                 while (--p >= 0 && md(result[p][0], result[p][1], r0, c0) - md(i, j, r0, c0) > 0) {
                     result[p+1][0] = result[p][0];

@@ -30,7 +30,7 @@ Output: [[1,2],[0,2],[1,1],[0,1],[1,0],[0,0]]
 Explanation: The distances from (r0, c0) to other cells are: [0,1,1,2,2,3]
 There are other answers that would also be accepted as correct, such as [[1,2],[1,1],[0,2],[1,0],[0,1],[0,0]].
 ```
- 
+
 ### Note
 
 1. 1 <= R <= 100
@@ -54,7 +54,7 @@ There are other answers that would also be accepted as correct, such as [[1,2],[
 
 Complexity Analysis:
 - Time complexity: $O(n^2)$
-- Space complexity: $O(1)
+- Space complexity: $O(1)$
 
 #### Java Code 
 
@@ -77,8 +77,9 @@ class Solution {
         // suppose the (0, 0) is the first in the sorted part.
         int inserted = 1;
         for (int i = 0; i < R; i++) {
-            for (int j = 0; j < C; j++) {
-                if (i == 0 && j == 0) continue;
+            int j = i == 0 ? 1 : 0;
+            for (; j < C; j++) {
+            //    if (i == 0 && j == 0) continue;
                 int p = inserted;
                 while (--p >= 0 && md(result[p][0], result[p][1], r0, c0) - md(i, j, r0, c0) > 0) {
                     result[p+1][0] = result[p][0];
