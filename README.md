@@ -3,8 +3,7 @@ author: rovo98
 description: leetcode solutions.
 ---
 
-# leetcode-java-solutions
+# leetcode-solutions
 My leetcode adventures!
 
-The second adventure.
-
+Most solutions are using java, but also using c, javascript, python, go.
