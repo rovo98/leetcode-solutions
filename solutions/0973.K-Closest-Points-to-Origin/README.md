@@ -1,0 +1,139 @@
+# 973. K Closest Points to Origin
+
+## Description
+
+We have a list of points on the plane.  Find the K closest points to the origin (0, 0).
+(Here, the distance between two points on a plane is the Euclidean distance.)
+You may return the answer in any order.  The answer is guaranteed to be unique (except for the order that it is in.)
+
+Example 1:
+
+```txt
+Input: points = [[1,3],[-2,2]], K = 1
+Output: [[-2,2]]
+Explanation: 
+The distance between (1, 3) and the origin is sqrt(10).
+The distance between (-2, 2) and the origin is sqrt(8).
+Since sqrt(8) < sqrt(10), (-2, 2) is closer to the origin.
+We only want the closest K = 1 points from the origin, so the answer is just [[-2,2]].
+```
+
+Example 2:
+
+```txt
+Input: points = [[3,3],[5,-1],[-2,4]], K = 2
+Output: [[3,3],[-2,4]]
+(The answer [[-2,4],[3,3]] would also be accepted.)
+```
+ 
+### Note
+
+```txt
+1 <= K <= points.length <= 10000
+-10000 < points[i][0] < 10000
+-10000 < points[i][1] < 10000
+```
+
+### Links
+
+[(en)https://leetcode.com/problems/k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin)
+<br />
+[(中文)https://leetcode-cn.com/problems/k-closest-points-to-origin](https://leetcode-cn.com/problems/k-closest-points-to-origin)
+
+## 解题思路
+
+### Solution1
+
+题目要求是找到离原点``(0,0)``最近的前``K``个点，因此最简单直接的想法是将``points``按点到原点的距离从小到大排序，返回前``K``个点即可。
+
+> 由于是数组排序，优先考虑快排(利用快排的思想实现, 只是简单的基本快排，没有任何优化处理)
+> 可以试着尝试快排优化：
+> 1. 切换排序方式: 当待排序数组元素少于一定数量时，快排序效率反而低，此时可以切换成插入排序等;
+> 2. 随机选择基准元素(povit): 基本的快排每一轮排序都是选择**当前待排序数组的最左边元素作为基准元素**;
+> 3. 三路快排(熵最优): 区别于一般快排，它将待排序数组分成是三个部分, 即小于基准元素部分、等于基准元素部分、大于基准元素的部分，递归排序第一和第三部分。**适用于待排序数组中拥有重复元素较多的情况**.
+
+#### code 
+
+我解题时的线上提交代码:
+
+```java
+class Solution {
+    /*
+    Approach One: using the idea of quickSort to sort the given array {@code points} firstly.
+    Complexity Analysis:
+    TC: O(n log n)
+    SC: O(1)
+    */
+    public int[][] kClosest(int[][] points, int K) {
+        if (K >= points.length)     return points; 
+        
+        int[][] result = new int[K][2];
+         // using the idea of quickSort to sort the points firstly.
+        quickSort(points);
+        
+        // System.out.println("Sorted points are the following:");
+        // for (int i = 0; i < points.length; i++) {
+        //     System.out.print("p" + i + ": " + Arrays.toString(points[i]) + ", ");
+        // }
+        // System.out.println();
+        for (int i = 0; i < K; i++) {
+            result[i] = points[i];
+        }
+        // System.out.println("Result:");
+        // for (int i = 0; i < K; i++) 
+        //     System.out.println("point: " + Arrays.toString(points[i]));
+        return result;
+    }
+    // compare the distance of two points.
+    private int compare(int[] distance, int i, int j) {
+            if          (distance[i] > distance[j])     return 1;
+            else if (distance[i] < distance[j])     return -1;
+            else                                                      return 0;
+    }
+    // quickSort for this problem
+    private void quickSort(int[][] points) {
+         // improvement one: compute the distance of all points and store in a array.
+        int[] distance = new int[points.length];
+        for (int i = 0; i < points.length; i++) {
+            distance[i] = points[i][0]*points[i][0] + points[i][1]*points[i][1];
+        }
+        sort(points, 0, points.length-1, distance);
+    }
+    // a simple implementation of quickSort algorithm.
+    private void sort(int[][] points, int lo, int hi, int[] distance) {
+        if (lo >= hi)       return;     // if only one element left.
+        int povit = lo;
+        int l = lo;
+        int h = hi + 1;
+        while (true) {
+            while ( compare(distance, povit, ++l) > 0) {
+                if (l == hi) break;
+            }
+            while ( compare(distance, povit, --h) < 0) {
+                if ( h == lo) break;
+            }
+            if (l >= h) break;
+            swap(points, distance, l, h);
+        }
+        swap(points, distance, lo, h);
+        sort(points, lo, h-1, distance);
+        sort(points, h+1, hi, distance);
+    }
+    // swap two points and their distance.
+    private void swap(int[][] points, int[] distance, int i, int j) {
+        // swap two points.
+        int[] temp = points[i];
+        points[i] = points[j];
+        points[j]  = temp;
+        // swap their distance.
+        int dis = distance[i];
+        distance[i] = distance[j];
+        distance[j] = dis;
+    }
+}
+```
+
+#### submission status
+
+![](../../images/973-k-closest-points-to-origin-optimal.png)
+
