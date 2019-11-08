@@ -2,7 +2,7 @@
 home: true
 heroImage: /lonely-night-cat.jpg
 actionText: 马上阅读 →
-actionLink: /index/
+actionLink: /array/
 features:
 - title: Algorihtms Learning
   details: 学习基本的、常用的算法设计技术(Design Diagrams)，通过在Leetcode上解题来训练。

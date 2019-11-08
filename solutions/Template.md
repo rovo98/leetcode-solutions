@@ -3,28 +3,25 @@
 ## Description
 
  
-### Note
+**Note**
 
 [extra requires]
 
-### Links
+**Links**
 
 [(en)https://leetcode.com/problems/](https://leetcode.com/problems/)
 <br />
 [(中文)https://leetcode-cn.com/problems/](https://leetcode-cn.com/problems/)
 
-## 解题思路
+## Solutions
 
 ### Solution1
-
-#### Java Code 
-
-我解题时的线上提交代码:
 
 ```java
 
 ```
 
-#### Submission status
+**Submission status**
 
+## Summary
 

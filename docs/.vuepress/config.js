@@ -7,7 +7,7 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css' }]
   ],
-  base: '/leetcode-java-solutions/',
+  base: '/leetcode-solutions/',
   markdown: {
     lineNumbers: true, // 代码块行号显示
     config: md => {
@@ -25,25 +25,56 @@ module.exports = {
           { text: "rovo98's Blog(on CodingPage)", link: 'https://rovo98.coding.me' }
         ]
       },
-      { text: 'Github地址', link: 'https://github.com/rovo98' }
+      { text: '⭐Star', link: 'https://github.com/rovo98/leetcode-solutions' }
     ],
-    sidebar: 'auto',
-    displayAllHeaders: true, // 默认值 false
-    lastUpdated: 'Last Updated'
-    // sidebar: [
-    //   // docs 文件夹下的文件夹
-    //   {
-    //     title: "Simple",
-    //     children: [
-    //
-    //     ]
-    //   },
-    //   {
-    //     title: "Medium",
-    //     children: [
-    //       "/Medium/0937.K-Closest-Points-To-Origin"
-    //     ]
-    //   }
-    // ]
+    displayAllHeaders: false, // 默认值 false
+    lastUpdated: 'Last Updated',
+    // sidebar: {
+    //   '/array/': [
+    //     '',
+    //     '0001.Two-Sum',
+    //   ],
+    //   '/math/': [
+    //     '',
+    //     '0007.Reverse-Integer'
+    //   ],
+    //   '/': [
+    //     '/array/',
+    //     '/math/'
+    //   ]
+    // }
+    sidebar: [
+      {
+        title: 'Array',
+        path: '/array/',
+        children: [
+          '/array/',
+          '/array/0001.Two-Sum.html'
+        ]
+      },
+      {
+        title: 'LinkedList',
+        path: '/linkedlist/',
+        children: [
+          '/linkedlist/'
+        ]
+      },
+      {
+        title: 'Math',
+        path: '/math/',
+        children: [
+          '/math/',
+          '/math/0007.Reverse-Integer.html'
+        ]
+      },
+      {
+        title: 'Sort',
+        path: '/sorting/',
+        children: [
+          '/sort/',
+          '/sort/0937.K-Closest-Points-to-Origin.html'
+        ]
+      }
+    ]
   }
 }
