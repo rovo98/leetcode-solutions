@@ -28,7 +28,6 @@ module.exports = {
       { text: '⭐Star', link: 'https://github.com/rovo98/leetcode-solutions' }
     ],
     displayAllHeaders: false, // 默认值 false
-    lastUpdated: 'Last Updated',
     // sidebar: {
     //   '/array/': [
     //     '',
