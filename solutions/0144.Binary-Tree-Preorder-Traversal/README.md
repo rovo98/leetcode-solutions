@@ -1,0 +1,161 @@
+# 144. Binary Tree Preorder Traversal
+
+## Description
+
+Given a binary tree, return the preorder traversal of its nodes' values.
+
+**Example:**
+
+```txt
+Input: [1,null,2,3]
+   1
+    \
+     2
+    /
+   3
+
+Output: [1,2,3]
+```
+
+Follow up: Recursive solution is trivial, could you do it iteratively?
+ 
+**Links**
+
+[(en)https://leetcode.com/problems/binary-tree-preorder-traversal/](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+<br />
+[(中文)https://leetcode-cn.com/problems/binary-tree-preorder-traversal/](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+
+## Solutions
+
+### Solution 0
+
+递归方式，非常容易理解。
+
+```java
+
+/**
+ * Recursive way.
+ * */
+public List<Integer> preorderTraversal(TreeNode root) {
+    List<Integer> res = new ArrayList<>();
+    helper(root, res);
+    return res;
+}
+private void helper(TreeNode root, List<Integer> res) {
+    if (root == null) return;
+    res.add(root.val);
+    helper(root.left, res);
+    helper(root.right, res);
+}
+```
+
+#### Solution 2
+
+使用迭代方式来解决，即使用栈 ``stack`` 来辅助。原理很简单，就是把后访问的节点先放入栈中保存。
+
+例如: 
+
+```txt
+    A
+   /  \ 
+  B    C
+ 先将 A push 进栈，当栈不为空 (!stack.isEmpty()):
+    1. 从栈中 pop 出节点 poped; 
+    2. 如果 poped (pop 出来的节点) 右孩子不为 null, 将它 push 进栈
+    3. 如果 poped 的左孩子不为 null, 将它 push 进栈
+```
+
+```java
+/**
+preOrder traversal iteration way using a stack.
+*/
+public List<Integer> preorderTraversal(TreeNode root) {
+    if (root == null) return new ArrayList<>();
+    List<Integer> result = new ArrayList<>();
+    
+    Deque<TreeNode> stack = new ArrayDeque<>();
+    stack.push(root);
+    TreeNode poped = null;
+    while (!stack.isEmpty()) {
+        poped = stack.pop();
+        result.add(poped.val);
+        if (poped.right != null)
+            stack.push(poped.right);
+        if (poped.left != null)
+            stack.push(poped.left);
+    }
+    return result;
+}
+```
+
+#### Solution 3
+
+迭代方式的解法，除了上面使用栈的方式外，还有完全不使用栈的方法。
+
+> 该方法是我之前在 geeksforgeeks 学习 inorder traversal 时，了解到有一种不使用栈来解决中根遍历的方式，之后使用相似的思路，自己编程实现的。
+> 本文只给出 ``preorder`` 遍历方式。
+
+思路:
+
+令 ``curr`` 指向当前根节点 ``root``, 当 ``curr != null``:
+1. 因为是先根遍历，所以直接访问当前节点值 ``curr.val``;
+2. 如果 ``curr`` 的左孩子为空 (``curr.left == null``)，直接令 ``curr = curr.right``;
+3. 否则(else), 令 ``curr`` 的右子树做 ``curr``左孩子的右子树的最右节点的右孩子，然后 ``curr = curr.left``。
+
+```txt
+    A
+   /  \ 
+  B    C
+      /
+     D
+
+访问完 A 之后，树变成 -> 
+        A
+       /
+      B 
+        \
+         C
+        /
+       D
+...
+```
+
+> 需要注意的是，由于不使用栈来存放后续访问的节点，所以只能对树的结构进行修改。
+> 所以此解法只适合允许对输入的树进行修改的情况。
+
+```java
+/**
+ * preorder traversal without using stacks.
+ * Complexity Analysis: 
+ *  Time complexity: O(n) while n is the number of the nodes in binary tree.
+ *  Space complexity: O(1) if result array does not counts
+ * */
+public List<Integer> preorderTraversal(TreeNode root) { 
+    List<Integer> res = new ArrayList<>();
+    if (root == null) return res;
+    TreeNode curr = root;
+    TreeNode pre = null;
+    while (curr != null) {
+        res.add(curr.val);
+        if (curr.left == null) {
+            curr = curr.right;
+        } else { // make curr's right childs as the right child of the rightmost chld of curr's left child
+            pre = curr.left;
+            if (curr.right != null) {
+                while (pre.right != null)
+                    pre = pre.right;
+                pre.right = curr.right;
+                curr.right = null;
+            }
+            // navigate to curr's left child
+            curr = curr.left;
+        }
+    }
+}
+```
+
+### Summary
+
+二叉树的遍历，大致为为 Breath-First Traversal （广度优先遍历）: levelOrderTraversal, 以及 Depth-First Traversal （深度优先遍历）: preoderTraveersal, inorderTraversal, postorderTraversal。
+
+对于深度遍历优先的三种方式，使用递归的解决方案是非常直观易懂的，而对于非递归方式，大多都使用栈来辅助实现，所以当我找到一种不使用栈，更快的方式时，看到 Accept 之后，是 0 ms, beats 100%, 真的有一种成就感。😁
