@@ -11,3 +11,5 @@ author: rovo98
 
 ## Hard
 
+[0004.Median of Two Sorted Arrays](./0004.Media-of-Two-Sorted-Arrays.html)<br/>
+
