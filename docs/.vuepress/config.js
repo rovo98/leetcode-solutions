@@ -22,7 +22,7 @@ module.exports = {
       { text: '个人博客',
         items: [
           { text: "rovo98's Blog(on GitPage)", link: 'https://rovo98.github.io' },
-          { text: "rovo98's Blog(on CodingPage)", link: 'https://rovo98.coding.me' }
+          { text: "rovo98's Blog(on CodingPage)", link: 'http://qr76xr.coding-pages.com' }
         ]
       },
       { text: '⭐Star', link: 'https://github.com/rovo98/leetcode-solutions' }
