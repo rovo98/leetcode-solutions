@@ -49,14 +49,15 @@ module.exports = {
         children: [
           '/array/',
           '/array/0001.Two-Sum.html',
-          '/array/0004.Median-of-Two-Sorted-Arrays.html',
+          '/array/0004.Median-of-Two-Sorted-Arrays.html'
         ]
       },
       {
         title: 'LinkedList',
         path: '/linkedlist/',
         children: [
-          '/linkedlist/'
+          '/linkedlist/',
+          '/linkedlist/0002.Add-Two-Numbers.html'
         ]
       },
       {
