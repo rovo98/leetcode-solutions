@@ -49,7 +49,8 @@ module.exports = {
         children: [
           '/array/',
           '/array/0001.Two-Sum.html',
-          '/array/0004.Median-of-Two-Sorted-Arrays.html'
+          '/array/0004.Median-of-Two-Sorted-Arrays.html',
+          '/array/0217.Contains-Duplicate.html'
         ]
       },
       {
@@ -65,7 +66,8 @@ module.exports = {
         path: '/math/',
         children: [
           '/math/',
-          '/math/0007.Reverse-Integer.html'
+          '/math/0007.Reverse-Integer.html',
+          '/math/0069.Sqrt-X.html'
         ]
       },
       {
@@ -74,6 +76,14 @@ module.exports = {
         children: [
           '/sort/',
           '/sort/0937.K-Closest-Points-to-Origin.html'
+        ]
+      },
+      {
+        title: 'Tree',
+        path: '/tree/',
+        children: [
+          '/tree/',
+          '/tree/0144.Binary-Tree-Preorder-Traversal.html'
         ]
       }
     ]
