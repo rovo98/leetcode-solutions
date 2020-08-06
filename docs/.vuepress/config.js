@@ -50,7 +50,11 @@ module.exports = {
           '/array/',
           '/array/0001.Two-Sum.html',
           '/array/0004.Median-of-Two-Sorted-Arrays.html',
-          '/array/0217.Contains-Duplicate.html'
+          '/array/0217.Contains-Duplicate.html',
+          '/array/0448.Find-All-Numbers-Disappeared-in-an-Array.html',
+          '/array/0561.Array-Partition-I.html',
+          '/array/0922.Sort-Array-By-Parity-II.html',
+          '/array/1122.Relative-Sort-Array.html'
         ]
       },
       {
@@ -75,7 +79,8 @@ module.exports = {
         path: '/sorting/',
         children: [
           '/sort/',
-          '/sort/0937.K-Closest-Points-to-Origin.html'
+          '/sort/0937.K-Closest-Points-to-Origin.html',
+          '/sort/1030.Matrix-Cells-in-Distance-Order.html'
         ]
       },
       {
@@ -84,6 +89,14 @@ module.exports = {
         children: [
           '/tree/',
           '/tree/0144.Binary-Tree-Preorder-Traversal.html'
+        ]
+      },
+      {
+        title: 'Graph',
+        path: '/graph/',
+        children: [
+          '/graph/',
+          '/graph/0684.Redundant-Connection.html'
         ]
       }
     ]
