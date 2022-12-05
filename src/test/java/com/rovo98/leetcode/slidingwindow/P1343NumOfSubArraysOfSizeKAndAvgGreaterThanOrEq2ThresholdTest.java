@@ -1,18 +1,17 @@
 package com.rovo98.leetcode.slidingwindow;
 
+import com.rovo98.leetcode.SolutionProviderFactory;
 import com.rovo98.leetcode.slidingwidow.P1343_NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2Threshold;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class P1343NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2ThresholdTest {
-
-    private static P1343_NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2Threshold solutionProvider;
-
-    @BeforeClass
-    public static void init() {
-        solutionProvider = new P1343_NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2Threshold();
+public class P1343NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2ThresholdTest
+        implements SolutionProviderFactory<
+                P1343_NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2Threshold> {
+    @Override
+    public P1343_NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2Threshold createSolutionProvider() {
+        return new P1343_NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2Threshold();
     }
 
     @Test
@@ -22,10 +21,9 @@ public class P1343NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2ThresholdTest {
         int threshold = 4;
         int expected = 3;
 
-        int result = solutionProvider.numOfSubarrays(arr, k, threshold);
+        int result = createSolutionProvider().numOfSubarrays(arr, k, threshold);
         assertEquals(expected, result);
     }
-
 
     @Test
     public void testcase2() {
@@ -34,7 +32,7 @@ public class P1343NumOfSubArraysOfSizeKAndAvgGreaterThanOrEq2ThresholdTest {
         int threshold = 5;
         int expected = 6;
 
-        int result = solutionProvider.numOfSubarrays(arr, k, threshold);
+        int result = createSolutionProvider().numOfSubarrays(arr, k, threshold);
         assertEquals(expected, result);
     }
 }
