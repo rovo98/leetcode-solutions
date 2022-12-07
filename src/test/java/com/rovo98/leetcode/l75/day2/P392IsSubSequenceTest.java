@@ -17,12 +17,14 @@ public class P392IsSubSequenceTest implements SolutionProviderFactory<P392IsSubS
         String s = "axc";
         String t = "ahbgdc";
         assertFalse(createSolutionProvider().isSubSequence(s, t));
+        assertFalse(createSolutionProvider().isSubSequence1(s, t));
     }
 
     @Test
     public void testcase2() {
         String s = "abc";
         String t = "ahbgdc";
+        assertTrue(createSolutionProvider().isSubSequence(s, t));
         assertTrue(createSolutionProvider().isSubSequence(s, t));
     }
 
@@ -31,6 +33,7 @@ public class P392IsSubSequenceTest implements SolutionProviderFactory<P392IsSubS
         String s = "aaaaaa";
         String t = "bbaaaa";
         assertFalse(createSolutionProvider().isSubSequence(s, t));
+        assertFalse(createSolutionProvider().isSubSequence1(s, t));
     }
 
 }
