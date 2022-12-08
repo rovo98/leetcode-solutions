@@ -2,6 +2,9 @@ package com.rovo98.leetcode.l75.day4;
 
 import com.rovo98.leetcode.common.ListNode;
 
+/**
+ * https://leetcode.com/problems/middle-of-the-linked-list
+ */
 public class P876MiddleOfTheLinkedList {
     /*
     TC: O(n)
