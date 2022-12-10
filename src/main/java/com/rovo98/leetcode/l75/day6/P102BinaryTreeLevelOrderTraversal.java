@@ -33,12 +33,7 @@ public class P102BinaryTreeLevelOrderTraversal {
             }
             if (queue.isEmpty()) {
                 queue.addAll(temp);
-                result.add(
-                        new ArrayList<>() {
-                            {
-                                addAll(list);
-                            }
-                        });
+                result.add(List.copyOf(list));
                 temp.clear();
                 list.clear();
             }
